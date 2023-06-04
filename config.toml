@@ -22,9 +22,9 @@ render_emoji = true
 
 [extra.footer]
 copyright = "/> Copyright 2023 Locochoco (Ivan Pancheniak)."
-served = "Served by [zola](https://www.getzola.org/), see [page source code here](https://www.getzola.org/)."
+served = "Served by [zola](https://www.getzola.org/), see [page source code here](https://github.com/loco-choco/locosite)."
 
 [extra.404]
-instructions = "Could not find the page you were looking for. If you expected a page to be here please [report this issue](https://www.getzola.org/)."
+instructions = "Could not find the page you were looking for. If you expected a page to be here please [report this issue](https://github.com/loco-choco/locosite/issues/new)."
 
 # Put all your custom variables here
