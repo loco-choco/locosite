@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  max-width: 100%;
+  //-ms-flex: 0 0 25%;
+  word-wrap: break-word;
+  //flex: 0 0 25%;
+  padding-right: 1rem;
+  padding-bottom: 2rem;
+}
+
+/* Clear floats after the columns */
+.row {
+  //content: "";
+  //display: table;
+  //clear: both;
+  max-width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}

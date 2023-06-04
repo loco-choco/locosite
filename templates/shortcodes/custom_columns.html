@@ -1,0 +1,14 @@
+<!--Parameters: custom_ratio = [int], ratio_base = int-->
+{% set body_split = body | split(pat="======") %}
+{% set column_size = body_split | length %}
+
+{% set custom_ratio_amount = custom_ratio | length %}
+
+<div {% if row %}class="{{ row }}"{% else %}class="row"{% endif %}>
+  {% for column_body in body_split %}
+  {% set column_porcentage = custom_ratio[loop.index0] / ratio_base * 100%}
+  <div {% if column %}class="{{ column }}"{% else %}class="column"{% endif %} style="flex: 0 0 {{ column_porcentage }}%; -ms-flex: 0 0 {{ column_porcentage }}%">
+    {{ column_body | markdown | safe}}
+  </div>
+  {% endfor %}
+</div>

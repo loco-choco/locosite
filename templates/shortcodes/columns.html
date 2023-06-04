@@ -1,0 +1,11 @@
+{% set body_split = body | split(pat="======") %}
+{% set column_size = body_split | length %}
+{% set default_porcentage = 100 / column_size %}
+
+<div {% if row %}class="{{ row }}"{% else %}class="row"{% endif %}>
+  {% for column_body in body_split %}
+  <div {% if column %}class="{{ column }}"{% else %}class="column"{% endif %} style="flex: 0 0 {{ default_porcentage }}%; -ms-flex: 0 0 {{ default_porcentage }}%">
+    {{ column_body | markdown | safe}}
+  </div>
+  {% endfor %}
+</div>

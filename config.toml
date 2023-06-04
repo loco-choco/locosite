@@ -1,0 +1,30 @@
+# The URL the site will be built for
+base_url = "https://example.com"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+extra_syntaxes_and_themes = []
+
+highlight_theme = "zenburn"
+
+render_emoji = true
+
+[extra]
+
+[extra.footer]
+copyright = "/> Copyright 2023 Locochoco (Ivan Pancheniak)."
+served = "Served by [zola](https://www.getzola.org/), see [page source code here](https://www.getzola.org/)."
+
+[extra.404]
+instructions = "Could not find the page you were looking for. If you expected a page to be here please [report this issue](https://www.getzola.org/)."
+
+# Put all your custom variables here

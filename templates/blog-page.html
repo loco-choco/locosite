@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+  {{ page.title }}
+</h1>
+<p class="subtitle"><small>Read time in minutes: {{ page.extra.read_time_minutes }}</small></p>
+
+{{ page.content | safe }}
+{% endblock content %}

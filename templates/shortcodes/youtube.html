@@ -1,0 +1,15 @@
+<center>
+<div {% if class %}class="{{class}}"{% endif %}>
+    <iframe 
+        style = "
+        width: 75%;
+        aspect-ratio: 4 / 3;
+        border: none;
+        ";
+        src="https://www.youtube.com/embed/{{id}}{% if autoplay %}?autoplay=1{% endif %}"
+        webkitallowfullscreen
+        mozallowfullscreen
+        allowfullscreen>
+    </iframe>
+</div>
+</center>
