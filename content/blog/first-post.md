@@ -1,5 +1,5 @@
 +++
-title = "FirstPost"
+title = "First Post"
 date = 2023-06-04
 transparent = true
 
