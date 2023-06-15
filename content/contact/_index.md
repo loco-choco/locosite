@@ -11,4 +11,4 @@ template = "simple.html"
 - [GitHub](https://github.com/loco-choco/)
 
 ## Discord
-**Locochoco#8523**
+**locochoco**
