@@ -12,3 +12,6 @@ template = "simple.html"
 
 ## Discord
 **locochoco**
+
+## Revolt
+**Locochoco#9025**
