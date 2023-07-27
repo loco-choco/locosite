@@ -5,7 +5,7 @@ template = "simple.html"
 # Contact Information
 
 ## Email
-**ivanrwpf@gmail.com**
+**contact@locochoco.dev**
 
 ## Social Media
 - [GitHub](https://github.com/loco-choco/)
